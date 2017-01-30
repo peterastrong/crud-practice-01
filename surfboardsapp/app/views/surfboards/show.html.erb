@@ -1,0 +1,11 @@
+<h1>one of them</h1>
+
+<%= @surfboard.shaper %>
+<%= @surfboard.length %>
+
+<div>
+  <%= link_to "edit", "/surfboards/#{@surfboard.id}/edit", method: :get %>
+</div>
+<div>
+  <%= link_to "delete", "/surfboards/#{@surfboard.id}", method: :delete %>
+</div>
